@@ -340,3 +340,526 @@ textarea {
   color: green;
 }
 
+
+@media screen and (min-width: 320px) {
+  .portada__subtitulo {
+    color: aliceblue;
+    font-family: "Sachlette Signature", sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    left: 30px;
+  }
+
+  .portada__titulo {
+    position: absolute;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    left: 70px;
+    font-size: 3rem;
+  }
+  .form__contacto {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .fi-br-cross,
+  .fi-br-menu-burger,
+  .checkbox {
+    display: none;
+  }
+
+  .navbar__menu-menu {
+    width: unset;
+    display: flex;
+    top: 0;
+    background-color: black;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(1.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+  }
+
+  .portada__subtitulo {
+    color: aliceblue;
+    font-family: "Sachlette Signature", sans-serif;
+    font-size: 5rem;
+    writing-mode: horizontal-tb;
+    rotate: 360deg;
+    top: 30%;
+    right: 5%;
+  }
+
+  .portada__titulo {
+    font-size: 4rem;
+    bottom: 400px;
+    writing-mode: horizontal-tb;
+    rotate: 360deg;
+    top: 45%;
+    right: 10%;
+  }
+  .container__titulo-header {
+    font-size: 7rem;
+    bottom: 10%;
+  }
+  .container__titulo-herramientas {
+    font-size: 7rem;
+    margin-bottom: 10%;
+  }
+
+  .container__titulo-projects {
+    font-size: 7rem;
+    margin-bottom: 10%;
+  }
+  .container-titulo-form {
+    font-size: 7rem;
+    margin-bottom: 10%;
+  }
+  .container__img-parrafo {
+    font-size: 2.3rem;
+  }
+
+  .container__card-card {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 15%;
+    margin: 0;
+    margin-bottom: 15%;
+  }
+  .card__figure {
+    padding: 2% 2%;
+  }
+  .container__card-projets {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .container__card-works {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card__works-letras--uno {
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 3%;
+  }
+
+  .card__works-letras--dos {
+    font-size: 4.5rem;
+    position: absolute;
+    text-align: center;
+    top: 08%;
+  }
+
+  .card__works-letras--tres {
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 0;
+  }
+  input,
+  textarea {
+    font-size: 1.5rem;
+  }
+  .form__contacto {
+    width: 90%;
+  }
+
+  .footer__redes a {
+    font-size: 5rem;
+  }
+
+  .copy {
+    font-size: 1.5rem;
+  }
+  .form__contacto {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+  }
+
+  .portada__subtitulo {
+    color: aliceblue;
+    font-family: "Sachlette Signature", sans-serif;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .portada__titulo {
+    position: absolute;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    bottom: 400px;
+  }
+
+  .container__img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url(./imagenes/yoportada.jfif);
+    opacity: 0.5;
+  }
+  .container__titulo-header {
+    font-size: 7rem;
+    bottom: 10%;
+  }
+  .container__titulo-herramientas {
+    font-size: 7rem;
+    /* margin-bottom: 10%; */
+  }
+
+  .container__titulo-projects {
+    font-size: 7rem;
+    margin-bottom: ;
+  }
+  .container-titulo-form {
+    font-size: 7rem;
+    margin-bottom: 10%;
+  }
+
+  .container__img-parrafo {
+    font-size: 3rem;
+  }
+
+  .container__lenguajes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+
+  .container__card-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .container__card-works {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card__works-letras--uno {
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    left: 6%;
+  }
+
+  .card__works-letras--dos {
+    font-size: 4.5rem;
+    position: absolute;
+    text-align: center;
+  }
+
+  .card__works-letras--tres {
+    font-size: 5rem;
+    position: absolute;
+    text-align: center;
+    left: 5%;
+  }
+
+  .container__container-git {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+
+  .form__contacto {
+    width: 900px;
+  }
+
+  .footer__redes a {
+    font-size: 7rem;
+  }
+
+  .copy {
+    font-size: 2rem;
+  }
+}
+
+/*Medias queries*/
+@media screen and (min-width: 1440px) {
+  .navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+  }
+
+  .portada__subtitulo {
+    color: aliceblue;
+    font-family: "Sachlette Signature", sans-serif;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .portada__titulo {
+    position: absolute;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    bottom: 400px;
+  }
+
+  .container__img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 30%;
+    background-image: url(./imagenes/yoportada.jfif);
+    opacity: 0.5;
+  }
+  .container__titulo-header {
+    font-size: 7rem;
+    bottom: 10%;
+  }
+  .container__titulo-herramientas {
+    font-size: 7rem;
+    /* margin-bottom: 10%; */
+  }
+
+  .container__titulo-projects {
+    font-size: 7rem;
+    margin-bottom: ;
+  }
+  .container-titulo-form {
+    font-size: 7rem;
+    margin-bottom: 10%;
+  }
+
+  .container__img-parrafo {
+    font-size: 3rem;
+  }
+
+  .container__lenguajes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+
+  .container__card-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .container__card-projets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .container__card-works {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card__works-letras--uno {
+    font-size: 6rem;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 5%;
+  }
+
+  .card__works-letras--dos {
+    font-size: 5.5rem;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+  }
+
+  .card__works-letras--tres {
+    font-size: 6rem;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 5%;
+  }
+
+  .container__container-git {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+
+  .form__contacto {
+    width: 900px;
+  }
+
+  .footer__redes a {
+    font-size: 7rem;
+  }
+
+  .copy {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .navbar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+  }
+
+  .portada__subtitulo {
+    color: aliceblue;
+    font-family: "Sachlette Signature", sans-serif;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .portada__titulo {
+    position: absolute;
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    top: 50%;
+    bottom: 400px;
+  }
+
+  .container__img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(./imagenes/yoportada.jfif);
+    opacity: 0.5;
+  }
+  .container__titulo-header {
+    font-size: 15rem;
+    bottom: 10%;
+  }
+  .container__titulo-herramientas {
+    font-size: 15rem;
+    /* margin-bottom: 10%; */
+  }
+
+  .container__titulo-projects {
+    font-size: 15rem;
+    margin-bottom: 10%;
+  }
+  .container-titulo-form {
+    font-size: 15rem;
+    margin-bottom: 10%;
+  }
+
+  .container__img-parrafo {
+    font-size: 8rem;
+  }
+
+  .container__lenguajes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+
+  .container__card-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .container__card-projets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .container__card-works {
+    width: 500px;
+    height: 500px;
+  }
+
+  .card__works-letras--uno {
+    font-size: 8rem;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 5%;
+  }
+
+  .card__works-letras--dos {
+    font-size: 7.5rem;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+  }
+
+  .card__works-letras--tres {
+    font-size: 8rem;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 5%;
+  }
+
+  .container__container-git {
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+
+  .form__contacto {
+    width: 1500px;
+    height: 1000px;
+  }
+  input {
+    font-size: 3rem;
+  }
+
+  .footer__redes a {
+    font-size: 10rem;
+  }
+
+  .copy {
+    font-size: 3rem;
+  }
+}
